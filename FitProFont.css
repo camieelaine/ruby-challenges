@@ -1,0 +1,53 @@
+
+/* Font proportions Remember, the Golden Ratio is: 1 : 1.618 
+In order to determine the sizes of your text you will need to either multiply 16 
+by 1.618 or divide it by 1.618.
+
+The mathematical formula:
+
+1 (your number, any number) X or / 1.618 (Golden Mean)*/
+
+
+/* Paragraph (16px is the default size for body paragraphs) */
+p {
+font-size: 15px; /*starting number*/
+}
+ 
+ /* Sidenotes (such as dates, author bylines, and footer text) (<p class=”sidenote”>) */
+p.sidenote {
+font-size: 9.89 px;
+/* Yes, you CAN use decimals in your font-sizes. For the sake of ease you are also welcome to round up to the nearest whole number! */
+}
+/* Footer headlines (<h4>) */ 
+h4 {
+font-size: 24.27px;
+/* The next largest number in your scale */
+}
+ 
+ /* Sidebar headlines (<h3>) */
+h3 {
+font-size: 39.27px;
+/* You get the idea! */
+}
+ 
+ /* Article headlines (<h2>) */
+h2 {
+font-size: 63.53px; 
+}
+ 
+ /* Page headline (<h1>) */
+h1 {
+font-size: 75px; 
+/* Ha! Bet you expected us to use 109.66px here? Right? Here’s the thing, that’s HUGE! For that reason, we are going with 75 px instead. What is the point of a rule if you can’t break it? */ 
+}
+
+/* 
+NOW, CREATE YOUR SCALE (IN YOUR CALCULATIONS, FEEL FREE TO ROUND TO THE NEAREST 100TH DECIMAL PLACE):
+
+Sidenotes = 16 / 1.618 = 9.89 px
+Body paragraphs = 16 px
+Footer headlines = 16 * 1.618 = 25.89 px
+Sidebar headlines = 25.89 * 1.618 = 41.89 px
+Article headlines = 41.89 * 1.618 = 67.78 px
+Page headline = 67.78 * 1.618 = 109.66 px
+*/
